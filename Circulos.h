@@ -19,8 +19,9 @@ public:
 };
 
 Circulos::Circulos() {
-    Coordenada coord;
-    this->coordenada = coord;
+    //Coordenada coord;
+    //this->coordenada = coord;
+    this->coordenada = Coordenada();
     this->radio = 1; 
 }
 Circulos::Circulos(Coordenada coordenada, int radio) {

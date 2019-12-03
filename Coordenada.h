@@ -15,9 +15,9 @@ public:
     void display();
 };
 Coordenada::Coordenada() {
-    x = 0;
-    y = 0;
-};
+    this->x = 0;
+    this->y = 0;
+}
 Coordenada::Coordenada(int x, int y) {
     this->x = x;
     this->y = y;
